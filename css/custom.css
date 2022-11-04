@@ -1,6 +1,6 @@
 body {
     padding-bottom: 600px;
-    background-color: #F1F0F0;
+    background-color: #F0F0F0;
 }
 .container {
     margin: 0 auto;
@@ -41,3 +41,17 @@ div.row {
     padding: .25em .5em;
     border-radius: 10%;
 }
+.visdes {
+    font-family: 'Anton', sans-serif;
+    font-size: 4em;
+}
+.utah {
+    font-family: 'Abel', sans-serif;
+}
+
+/*COLOR PALLET VALUES AS FOLLOWS
+DESIGN = #E6563B
+DEVELOP = #EB9D3A
+SUPPORT = #7CB06C
+HOST = #00ABA9
+*/

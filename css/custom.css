@@ -1,2 +1,43 @@
 body {
+    padding-bottom: 600px;
+    background-color: #F1F0F0;
+}
+.container {
+    margin: 0 auto;
+    padding: 0;
+    width: 95%;
+}
+
+/*NEED TO ELIMINATE ONCE COMPLETED W SPACING N STUFF OR WHATEVER*/
+div {
+    background-color: blue;
+    border: 2px solid black;
+    text-align: center;w
+}
+div.row {
+    background: none;
+    border: none;
+    margin: 1em;
+}
+.done {
+    background: none;
+    border: none;
+}
+
+.spacer {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logoimg {
+    width: 100%;
+}
+.logodiv {
+    border: none
+}
+#hamburger {
+    border: solid 1px lightgrey;
+    padding: .25em .5em;
+    border-radius: 10%;
 }

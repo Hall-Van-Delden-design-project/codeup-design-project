@@ -2,6 +2,7 @@ body {
     padding-bottom: 600px;
     background-color: #F0F0F0;
 }
+
 .container {
     margin: 0 auto;
     padding: 0;
@@ -12,13 +13,15 @@ body {
 div {
     background-color: blue;
     border: 2px solid black;
-    text-align: center;w
+    text-align: center;
 }
+
 div.row {
     background: none;
     border: none;
     margin: 1em;
 }
+
 .done {
     background: none;
     border: none;
@@ -30,28 +33,104 @@ div.row {
     justify-content: center;
     align-items: center;
 }
-#logoimg {
+
+#logo-img {
     width: 100%;
 }
-.logodiv {
+
+.logo-div {
     border: none
 }
+
 #hamburger {
     border: solid 1px lightgrey;
     padding: .25em .5em;
     border-radius: 10%;
 }
-.visdes {
+
+.vis-des {
     font-family: 'Anton', sans-serif;
     font-size: 4em;
 }
+
 .utah {
+    font-family: 'Anton', sans-serif;
+    margin: 0.5em 0
+}
+
+.abel {
     font-family: 'Abel', sans-serif;
 }
 
-/*COLOR PALLET VALUES AS FOLLOWS
-DESIGN = #E6563B
-DEVELOP = #EB9D3A
-SUPPORT = #7CB06C
-HOST = #00ABA9
-*/
+/*CIRCLES UNDER VIS DES*/
+.circle-big {
+    border-radius: 50%;
+    padding: 3em;
+    height: 2em;
+    color: white;
+    border: .5em solid white;
+    font-family: 'Anton', sans-serif;
+}
+
+/*CIRCLE COLORS*/
+#design {
+    background-color: #E6563B;
+    margin-left: 45%;
+    margin-bottom: 15%;
+}
+
+#develop {
+    background-color: #EB9D3A;
+    margin-right: 45%;
+    margin-bottom: 15%;
+}
+
+#support {
+    background-color: #7CB06C;
+    margin-left: 45%;
+    margin-bottom: 15%;
+}
+
+#host {
+    background-color: #00ABA9;
+    margin-right: 45%;
+    margin-bottom: 15%;
+}
+
+div.img-container {
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+}
+
+.img {
+    background: #E6E6E6;
+    display: flex;
+    width: 100%;
+    padding: 0.5em;
+    margin: auto;
+}
+
+.lil-circle {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.circle-small {
+    margin-right: auto;
+    color: white;
+}
+
+.text {
+    color: white;
+}
+
+div.text\+circle {
+    margin: 0 1em 1em 1em;
+    width: 90%;
+}
+
+div.i\+u {
+    margin: 0;
+}

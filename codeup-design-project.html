@@ -1,54 +1,98 @@
 <!doctype html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="x-ua-compatible" content="ie=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Design Project</title>
+		<title>Design Project</title>
 
-<!--    ADDED BOOTSTRAP-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<!--ADDED BOOTSTRAP-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+			  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-<!--    ADDED FONT FAMILIES-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap" rel="stylesheet">
+		<!--ADDED FONT FAMILIES-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap" rel="stylesheet">
 
-<!--    ADDED CUSTOM CSS-->
-    <link rel="stylesheet" href="css/custom.css">
+		<!--ADDED CUSTOM CSS-->
+		<link rel="stylesheet" href="css/custom.css">
 
-<!--    ADDED FONT AWESOME-->
-    <script src="https://kit.fontawesome.com/d3d2b8d511.js" crossorigin="anonymous"></script>
-    <!-- Your custom css styles go here -->
-</head>
-<body>
-<div class="container done">
+		<!--ADDED FONT AWESOME-->
+		<script src="https://kit.fontawesome.com/d3d2b8d511.js" crossorigin="anonymous"></script>
+	</head>
+	<body class="">
+	<!--MAKE SURE TO REMOVE DONE FROM CLASS OR COMMENT OUT IN CSS-->
+	<div class="container done">
+		<!--PAPER LOGO-->
+		<div class="row g-0 done">
+			<div class="col-1 logo-div done">
+				<img src="assets/logo.png" id="logo-img">
+			</div>
+			<!--HAMBURGER-->
+			<div class="col-1 spacer done">
+				<i class="fa-solid fa-bars" id="hamburger"></i>
+			</div>
+		</div>
+	</div>
 
-<!--    MAKE SURE TO REMOVE DONE FROM CLASS OR COMMENT OUT IN CSS-->
-<!--    TOP ROW / LOGO - HAMBURGER -->
-    <div class="row g-0 done">
-        <div class="col-1 logodiv done">
-            <img src="assets/logo.png" id="logoimg">
-        </div>
-        <div class="col-1 spacer done">
-            <i class="fa-solid fa-bars" id="hamburger"></i>
-        </div>
-    </div>
-</div>
+	<!--VIS DES + UTAH TEXT CONTAINER-->
+	<div class="container done">
+		<div class="row done">
+			<!--VIS DES-->
+			<div class="col-lg-4 offset-lg-4 vis-des done">VISUAL DESIGN & WEB DEVELOPMENT</div>
+		</div>
+		<div class="row done">
+			<!--Needs to be WAAAAY beefier-->
+			<!--UTAH-->
+			<div class="col-lg-4 offset-lg-4 fs-1 done utah">FROM PARK CITY, UTAH</div>
+		</div>
+	</div>
 
-<!--    MAKE SURE TO REMOVE DONE FROM CLASS OR COMMENT OUT IN CSS-->
-<!--       VIS DES  +  UTAH TEXT CONTAINERS -->
-<div class="container done">
-    <div class="row done">
-        <div class="col-lg-4 offset-lg-4 visdes done">Visual Design & Web Development</div>
-    </div>
-    <div class="row done">
-        <div class="col-lg-4 offset-lg-4 fs-1 done">From Park City Utah</div>
-    </div>
+	<!--CIRCLES CONTAINER-->
+	<div class="container d-flex done">
+		<div class="row justify-content-center">
+			<!--CIRCLES-->
+			<div class="circle-big col-2 done spacer" id="design">DESIGN</div>
+			<div class="circle-big col-2 done spacer" id="support">SUPPORT</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="circle-big col-2 done spacer" id="develop">DEVELOP</div>
+			<div class="circle-big col-2 done spacer" id="host">HOST</div>
+		</div>
+	</div>
 
-<!--    ADD -->
+	<!--SELECTED WORK-->
+	<div class="container done">
+		<div class="row">
+			<div class="col-lg-4 offset-lg-4 done abel">SELECTED WORK</div>
+		</div>
+	</div>
 
+	<!--IMAGES CONTAINER-->
+	<div class="container done">
+		<div class="row i+u justify-content-center">
+			<div class="img-container done">
+				<img class="img" src="assets/images/apple-ipad.jpg">
+			</div>
+		</div>
+	</div>
+	<!--UNDERTEXT CONTAINER-->
+<!--	<div class="container">-->
+		<div class="row justify-content-center text+circle">
+			<div class="col-7 text abel">FEATURED PROJECT</div>
+		</div>
 
-</body>
+		<!--LIL CIRCLES-->
+		<div class="col-4 lil-circle">
+			<div class="row lil-circle">
+				<div class="circle-small spacer d-r col-1">D</div>
+				<div class="circle-small spacer d-o col-1">D</div>
+				<div class="circle-small spacer s-g col-1">S</div>
+				<div class="circle-small spacer h-b col-1">H</div>
+			</div>
+		</div>
+<!--	</div>-->
+	</body>
 </html>

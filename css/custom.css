@@ -62,6 +62,11 @@ div.row {
     font-family: 'Abel', sans-serif;
 }
 
+.abelspace {
+    font-family: 'Abel', sans-serif;
+    margin-bottom: 2em;
+}
+
 /*CIRCLES UNDER VIS DES*/
 .circle-big {
     border-radius: 50%;

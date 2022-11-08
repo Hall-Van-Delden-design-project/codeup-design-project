@@ -143,13 +143,12 @@ div.row {
 div.img-container {
     justify-content: center;
     margin: auto;
-    width: 90%;
 }
 
 .img {
     background: #E6E6E6;
     display: flex;
-    width: 100%;
+    /*width: 100%;*/
     padding: 0.5em;
     margin: auto;
 }
@@ -231,6 +230,12 @@ div.i\+u {
 #hide{
     height: 0px;
 }
+
+#imagecontainer {
+
+}
+
+
 
 @media screen and (min-width:768px) {
     #hide {

@@ -23,34 +23,33 @@
 		<script src="https://kit.fontawesome.com/d3d2b8d511.js" crossorigin="anonymous"></script>
 	</head>
 	<body class="">
-	<!--MAKE SURE TO REMOVE DONE FROM CLASS OR COMMENT OUT IN CSS-->
-	<div class="container done">
+	<!--MAKE SURE TO REMOVE  FROM CLASS OR COMMENT OUT IN CSS-->
+	<div class="container">
 		<!--PAPER LOGO-->
-		<div class="row g-0 done">
-			<div class="col-1 c logo-div done">
+		<div class="row g-0">
+			<div class="col-1 c logo-div">
 				<img src="assets/logo.png" id="logo-img" alt="logo">
 			</div>
 			<!--HAMBURGER-->
-			<div class="col-1 spacer done">
+			<div class="col-1 spacer">
 				<i class="fa-solid fa-bars" id="hamburger"></i>
 			</div>
 		</div>
 	</div>
 
 	<!--VIS DES + UTAH TEXT CONTAINER-->
-	<div class="container done">
-		<div class="row done">
+	<div class="container">
+		<div class="row">
 			<!--VIS DES-->
-			<div class="col-lg-4 offset-lg-4 vis-des done">VISUAL DESIGN & WEB DEVELOPMENT</div>
+			<div class="col-lg-4 offset-lg-4 vis-des">VISUAL DESIGN & WEB DEVELOPMENT</div>
 		</div>
-		<div class="row done">
-			<!--Needs to be WAAAAY beefier-->
+		<div class="row">
 			<!--UTAH-->
-			<div class="col-lg-4 offset-lg-4 done utah">FROM PARK CITY, UTAH</div>
+			<div class="col-12 utah">FROM PARK CITY, UTAH</div>
 		</div>
 	</div>
 
-	<div class="container justify-content-center  d-flex done">
+	<div class="container justify-content-center  d-flex">
 		<div class="row justify-content-flex-start">
 			<!--CIRCLES-->
 			<div class="circle-big col-2 offset-3 col-md-2 offset-md-0" id="design">DESIGN</div>
@@ -62,87 +61,73 @@
 	<!--SELECTED WORK-->
 	<hr id="hide">
 
-	<div class="container done">
+	<div class="container">
 		<div class="row">
-			<div class="col-lg-4 offset-lg-4 done abelspace">SELECTED WORK</div>
+			<div class="col-lg-4 offset-lg-4  abelspace">SELECTED WORK</div>
 		</div>
 	</div>
 
-	<!--START OF CONTAINER OF ALL IMAGES (FIRST IMAGE IPAD)-->
-	<div class="container done">
+	<!--CONTAINER OF ALL IMAGES-->
+	<div class="container">
+		<!--IPAD IMAGE-->
 		<div class="row">
-			<div class="col-12 col-sm-6 sm-font md-font pr-sm-4 pb-sm-4 justify-content-center">
-				<img class="img" src="assets/images/apple-ipad.jpg" alt="ipad">
-			</div>
-			<div class="row text+circle" id="ipadrow">
-				<div class="col-8 col-md-3 text abel d-flex done">FEATURED PROJECT</div>
-				<!--LIL CIRCLES-->
-				<div class="row lil-circle" id="foursmallipad">
-					<div class="circle-small spacer d-r col-1">D</div>
-					<div class="circle-small spacer d-o col-1">D</div>
-					<div class="circle-small spacer s-g col-1">S</div>
-					<div class="circle-small spacer h-b col-1">H</div>
+			<div class="col-12 col-md-6 sm-font md-font pr-4 pb-4 pr-sm-4 pb-sm-4 justify-content-center">
+				<img src="assets/images/apple-ipad.jpg"
+					 class="img img-fluid">
+				<div class="d-flex">
+					<div class="me-auto abel">FEATURED PROJECT</div>
+					<div class="justify-content-between anton">
+						<div class="d-r badge rounded-circle">D</div>
+						<div class="d-o badge rounded-circle">D</div>
+						<div class="s-g badge rounded-circle">S</div>
+						<div class="h-b badge rounded-circle">H</div>
+					</div>
 				</div>
 			</div>
-		</div>
+			<!--MACBOOK IMAGE-->
+			<div class="col-12 col-md-6 sm-font md-font pr-4 pb-4 pr-sm-4 pb-sm-4 justify-content-center">
+				<img src="assets/images/macbook.jpg"
+					 class="img img-fluid">
+				<div class="d-flex">
+					<div class="me-auto abel">FEATURED PROJECT</div>
+					<div class="anton">
+						<div class="d-r badge rounded-circle">D</div>
+						<div class="d-o badge rounded-circle">D</div>
+						<div class="s-g badge rounded-circle">S</div>
+						<div class="h-b badge rounded-circle">H</div>
+					</div>
+				</div>
+			</div>
 
-		<!--		SECOND IMAGE MACBOOK-->
-		<div class="row i+u justify-content-center">
-			<div class="img-container done">
-				<img class="img col-12 col-md-6" src="assets/images/macbook.jpg" alt="macbook">
-			</div>
-		</div>
-		<div class="row text+circle" id="ipadrow">
-			<div class="col-8 text abel d-flex done">FEATURED PROJECT</div>
-			<!--LIL CIRCLES-->
-			<div class="col-4 lil-circle done">
-				<div class="row lil-circle" id="foursmallmac">
-					<div class="circle-small spacer d-r col-1">D</div>
-					<div class="circle-small spacer d-o col-1">D</div>
-					<div class="circle-small spacer s-g col-1">S</div>
-					<div class="circle-small spacer h-b col-1">H</div>
+			<!--MAN IMAGE-->
+			<div class="col-12 col-md-6 sm-font md-font pr-4 pb-4 pr-sm-4 pb-sm-4 justify-content-center">
+				<img src="assets/images/man.jpg"
+					 class="img img-fluid">
+				<div class="d-flex">
+					<div class="me-auto abel">FEATURED PROJECT</div>
+					<div class="anton">
+						<div class="d-r badge rounded-circle">D</div>
+						<div class="d-o badge rounded-circle">D</div>
+						<div class="s-g badge rounded-circle">S</div>
+						<div class="h-b badge rounded-circle">H</div>
+					</div>
 				</div>
 			</div>
-		</div>
-		<!--		THIRD IMAGE MAN-->
-		<div class="row i+u justify-content-center">
-			<div class="img-container done">
-				<img class="img col-12 col-md-6" src="assets/images/man.jpg" alt="man">
-			</div>
-		</div>
-		<div class="row text+circle" id="ipadrow">
-			<div class="col-8 text abel d-flex done">FEATURED PROJECT</div>
-			<!--LIL CIRCLES-->
-			<div class="col-4 lil-circle done">
-				<div class="row lil-circle" id="foursmallman">
-					<div class="circle-small spacer d-r col-1">D</div>
-					<div class="circle-small spacer d-o col-1">D</div>
-					<div class="circle-small spacer s-g col-1">S</div>
-					<div class="circle-small spacer h-b col-1">H</div>
-				</div>
-			</div>
-		</div>
-
-		<!--		SECOND IMAGE MACBOOK-->
-		<div class="row i+u justify-content-center">
-			<div class="img-container done">
-				<img class="img col-12 col-md-6" src="assets/images/security.jpg" alt="security">
-			</div>
-		</div>
-		<div class="row text+circle" id="ipadrow">
-			<div class="col-8 text abel d-flex done">FEATURED PROJECT</div>
-			<!--LIL CIRCLES-->
-			<div class="col-4 lil-circle done">
-				<div class="row lil-circle" id="foursmallsec">
-					<div class="circle-small spacer d-r col-1">D</div>
-					<div class="circle-small spacer d-o col-1">D</div>
-					<div class="circle-small spacer s-g col-1">S</div>
-					<div class="circle-small spacer h-b col-1">H</div>
+			<!--SECURITY IMAGE-->
+			<div class="col-12 col-md-6 sm-font md-font pr-4 pb-4 pr-sm-4 pb-sm-4 justify-content-center">
+				<img src="assets/images/security.jpg"
+					 class="img img-fluid">
+				<div class="d-flex">
+					<div class="me-auto abel">FEATURED PROJECT</div>
+					<div class="anton">
+						<div class="d-r badge rounded-circle">D</div>
+						<div class="d-o badge rounded-circle">D</div>
+						<div class="s-g badge rounded-circle">S</div>
+						<div class="h-b badge rounded-circle">H</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
-
 	</body>
 </html>

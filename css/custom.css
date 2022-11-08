@@ -1,46 +1,29 @@
+
+
+/*ELEMENTS*/
 body {
     /*Why is there padding?*/
     /*padding-bottom: 600px;*/
     background-color: #F0F0F0;
 }
 
-.container {
-    margin: 0 auto;
-    padding: 0;
-    width: 95%;
-}
-
-/*NEED TO ELIMINATE ONCE COMPLETED W SPACING N STUFF OR WHATEVER*/
 div {
-    background-color: blue;
-    border: 2px solid black;
     text-align: center;
 }
 
-div.row {
-    background: none;
-    border: none;
-    margin: 1em;
-}
-
-.done {
-    background: none;
-    border: none;
-}
-
-.spacer {
-    margin-left: auto;
-    display: flex;
+div.img-container {
     justify-content: center;
-    align-items: center;
+    margin: auto;
 }
 
-#logo-img {
+div.text\+circle {
+    margin: 0 1em 1em 1em;
     width: 100%;
 }
 
-.logo-div {
-    border: none
+/*IDs*/
+#logo-img {
+    width: 100%;
 }
 
 #hamburger {
@@ -48,66 +31,6 @@ div.row {
     padding: .25em .5em;
     border-radius: 10%;
 }
-
-.vis-des {
-    font-family: 'Anton', sans-serif;
-    font-size: 4em;
-}
-
-.utah {
-    font-family: 'Anton', sans-serif;
-    margin: 0.5em 0;
-    font-weight: bold;
-    font-size: 2.5em;
-}
-
-.abel {
-    font-family: 'Abel', sans-serif;
-}
-
-.abelspace {
-    font-family: 'Abel', sans-serif;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
-/*CIRCLES UNDER VIS DES*/
-.circle-big {
-    border-radius: 50%;
-    padding: 2.5em;
-    height: 2em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    color: white;
-    border: .5em solid white;
-    font-family: 'Anton', sans-serif;
-}
-
-/*!*CIRCLE COLORS*!*/
-/*#design {*/
-/*    background-color: #E6563B;*/
-/*    margin-left: 45%;*/
-/*    margin-bottom: 15%;*/
-/*}*/
-
-/*#develop {*/
-/*    background-color: #EB9D3A;*/
-/*    margin-right: 45%;*/
-/*    margin-bottom: 15%;*/
-/*}*/
-
-/*#support {*/
-/*    background-color: #7CB06C;*/
-/*    margin-left: 45%;*/
-/*    margin-bottom: 15%;*/
-/*}*/
-
-/*#host {*/
-/*    background-color: #00ABA9;*/
-/*    margin-right: 45%;*/
-/*    margin-bottom: 15%;*/
-/*}*/
-
 
 #design {
     background-color: #E6563B;
@@ -137,20 +60,105 @@ div.row {
     align-items: center;
 }
 
-
-
-
-div.img-container {
-    justify-content: center;
+#ipadrow {
+    width: 86%;
     margin: auto;
+}
+
+#foursmallipad {
+    margin: 0;
+    justify-content: center;
+}
+
+#foursmallmac {
+    margin: 0;
+    justify-content: center;
+}
+
+#foursmallman {
+    margin: 0;
+    justify-content: center;
+}
+
+#foursmallsec {
+    margin: 0;
+    justify-content: center;
+}
+
+#hide {
+    height: 0;
+}
+
+/*CLASSES*/
+.container {
+    margin: 0 auto;
+    padding: 0;
+    width: 95%;
+}
+
+.spacer {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-div {
+    border: none
+}
+
+.vis-des {
+    font-family: 'Anton', sans-serif;
+    font-size: 4em;
+}
+
+.utah {
+    font-family: 'Anton', sans-serif;
+    margin: 0.5em 0;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.abel {
+    font-family: 'Abel', sans-serif;
+}
+
+.abelspace {
+    font-family: 'Abel', sans-serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.circle-big { /*CIRCLES UNDER VIS DES*/
+    border-radius: 50%;
+    padding: 2.5em;
+    height: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: white;
+    border: .5em solid white;
+    font-family: 'Anton', sans-serif;
+}
+
+.d-r {
+    background-color: #E6563B;
+}
+
+.d-o {
+    background-color: #EB9D3A;
+}
+
+.s-g {
+    background-color: #7CB06C;
+}
+
+.h-b {
+    background-color: #00ABA9;
 }
 
 .img {
     background: #E6E6E6;
-    display: flex;
-    /*width: 100%;*/
     padding: 0.5em;
-    margin: auto;
 }
 
 .lil-circle {
@@ -166,38 +174,14 @@ div.img-container {
     margin-left: .3em;
     margin-bottom: .5em;
     border-radius: 50%;
-    font-family: 'Anton', sans-seri;
+    font-family: 'Anton', sans-serif;
     padding: .75em;
     border: none;
 }
 
-#ipadrow {
-    width: 86%;
-    margin: auto;
-}
-
-/*USED ID's BC CLASS WASNT SPECIFIC ENOUGH*/
-#foursmallipad{
-    margin: 0;
-    justify-content: center;
-}
-#foursmallmac{
-    margin: 0;
-    justify-content: center;
-}
-#foursmallman{
-    margin: 0;
-    justify-content: center;
-}
-#foursmallsec{
-    margin: 0;
-    justify-content: center;
-}
-/*USED IDs cause classes not specific enough*/
 
 .smallrowspacing {
     margin: 0 1em 0 0;
-    margin-bottom: 1em;
 }
 
 .text {
@@ -206,35 +190,12 @@ div.img-container {
     justify-content: flex-start;
 }
 
-div.text\+circle {
-    margin: 0 1em 1em 1em;
-    width: 100%;
+.badge {
+    font-family: 'Anton', sans-serif;
+    color: black;
 }
 
-
-.d-r {
-    background-color: #E6563B;
-}
-.d-o {
-    background-color: #EB9D3A;
-}
-.s-g {
-    background-color: #7CB06C;
-}
-.h-b {
-    background-color: #00ABA9;
-}
-#hide{
-    height: 0px;
-}
-
-#imagecontainer {
-
-}
-
-
-
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     #hide {
         height: 1px;
     }

@@ -56,7 +56,9 @@ div.row {
 
 .utah {
     font-family: 'Anton', sans-serif;
-    margin: 0.5em 0
+    margin: 0.5em 0;
+    font-weight: bold;
+    font-size: 2.5em;
 }
 
 .abel {
@@ -71,37 +73,71 @@ div.row {
 /*CIRCLES UNDER VIS DES*/
 .circle-big {
     border-radius: 50%;
-    padding: 3em;
+    padding: 2.5em;
     height: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     color: white;
     border: .5em solid white;
     font-family: 'Anton', sans-serif;
 }
 
-/*CIRCLE COLORS*/
+/*!*CIRCLE COLORS*!*/
+/*#design {*/
+/*    background-color: #E6563B;*/
+/*    margin-left: 45%;*/
+/*    margin-bottom: 15%;*/
+/*}*/
+
+/*#develop {*/
+/*    background-color: #EB9D3A;*/
+/*    margin-right: 45%;*/
+/*    margin-bottom: 15%;*/
+/*}*/
+
+/*#support {*/
+/*    background-color: #7CB06C;*/
+/*    margin-left: 45%;*/
+/*    margin-bottom: 15%;*/
+/*}*/
+
+/*#host {*/
+/*    background-color: #00ABA9;*/
+/*    margin-right: 45%;*/
+/*    margin-bottom: 15%;*/
+/*}*/
+
+
 #design {
     background-color: #E6563B;
-    margin-left: 45%;
-    margin-bottom: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #develop {
     background-color: #EB9D3A;
-    margin-right: 45%;
-    margin-bottom: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #support {
     background-color: #7CB06C;
-    margin-left: 45%;
-    margin-bottom: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #host {
     background-color: #00ABA9;
-    margin-right: 45%;
-    margin-bottom: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+
 
 div.img-container {
     justify-content: center;

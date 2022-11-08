@@ -1,5 +1,6 @@
 body {
-    padding-bottom: 600px;
+    /*Why is there padding?*/
+    /*padding-bottom: 600px;*/
     background-color: #F0F0F0;
 }
 
@@ -123,7 +124,6 @@ div.img-container {
 }
 
 .circle-small {
-    margin-right: left;
     color: black;
     height: 18px;
     width: 18px;
@@ -135,10 +135,24 @@ div.img-container {
     border: none;
 }
 
-#foursmall{
+/*USED ID's BC CLASS WASNT SPECIFIC ENOUGH*/
+#foursmallipad{
     margin: 0;
     justify-content: center;
 }
+#foursmallmac{
+    margin: 0;
+    justify-content: center;
+}
+#foursmallman{
+    margin: 0;
+    justify-content: center;
+}
+#foursmallsec{
+    margin: 0;
+    justify-content: center;
+}
+/*USED IDs cause classes not specific enough*/
 
 .smallrowspacing {
     margin: 0 1em 0 0;

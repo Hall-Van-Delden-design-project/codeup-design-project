@@ -172,6 +172,11 @@ div.img-container {
     border: none;
 }
 
+#ipadrow {
+    width: 86%;
+    margin: auto;
+}
+
 /*USED ID's BC CLASS WASNT SPECIFIC ENOUGH*/
 #foursmallipad{
     margin: 0;
